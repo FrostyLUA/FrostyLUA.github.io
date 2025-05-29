@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Young Street Ontario</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #001f3f;
+    }
+    header {
+      background-color: #007BFF;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      background-color: #0056b3;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .screenshots img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #007BFF;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    h2 {
+      color: #003366;
+    }
+    a {
+      color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Young Street Ontario</h1>
+    <p>A Roblox Game Set in the Real Streets of Ontario, Canada</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#progress">Progress</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About the Game</h2>
+    <p>
+      Young Street Ontario is a realistic open-world Roblox game set in the real city of Ontario, Canada. Inspired by the iconic Yonge Street and the diverse neighborhoods surrounding it, this game lets you explore the urban environment, drive cars, take on jobs, and experience a slice of Canadian city life like never before.
+    </p>
+  </section>
+
+  <section id="progress">
+    <h2>Game Progress</h2>
+    <div class="screenshots">
+      <img src="screenshot1.jpg" alt="Game Progress 1">
+      <img src="screenshot2.jpg" alt="Game Progress 2">
+      <img src="screenshot3.jpg" alt="Game Progress 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Socials</h2>
+    <p>Follow the development or get in touch with us:</p>
+    <ul>
+      <li>YouTube: <a href="https://www.youtube.com/@YoungStreetOntario" target="_blank">youtube.com/@YoungStreetOntario</a></li>
+      <li>Twitter/X: <a href="https://x.com/jnrdevelopment" target="_blank">x.com/jnrdevelopment</a></li>
+      <li>Roblox Group: <a href="https://www.roblox.com/communities/17376821/Young-Street-Ontario#!/about" target="_blank">Young Street Ontario Group</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Young Street Ontario. All rights reserved.</p>
+  </footer>
+</body>
+</html>
